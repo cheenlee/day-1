@@ -17,28 +17,28 @@ struct classwork_3: View {
             VStack (alignment:.center , spacing: 50)
             {
                 Text (thekr)
-                 .font(Font.custom("DroidKufi-Regular", size: 36))
-                 .font(.largeTitle)
+                    .font(Font.custom("DroidKufi-Regular", size: 36))
+                    .font(.largeTitle)
                     .bold()
                     .foregroundColor(.white)
-                    
+                
                 Text ("\(counter)")
-                            .font(Font.custom("DroidKufi-Regular", size: 36))
-                            .bold()
+                    .font(Font.custom("DroidKufi-Regular", size: 36))
+                    .bold()
                     .padding(.horizontal, 40)
-                            .foregroundColor(.white)
+                    .foregroundColor(.white)
                     .background(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.2536036532)))
-                                .clipShape(Capsule())
-               
-                            
-        
-                        
-                }
-            
-            
+                    .clipShape(Capsule())
+                
+                
+                
+                
             }
+            
+            
+        }
         .onTapGesture {
-        self.counter += 1
+            self.counter += 1
         }
         .onLongPressGesture {
             self.thekr = athkar.randomElement()!
@@ -46,7 +46,7 @@ struct classwork_3: View {
             
             
         }
-  
+            
         .animation(.default)
         
         

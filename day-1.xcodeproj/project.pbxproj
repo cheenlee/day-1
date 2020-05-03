@@ -18,6 +18,9 @@
 		17E271A0245E64B100212E69 /* classwork-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E2719F245E64B100212E69 /* classwork-2.swift */; };
 		17E271A5245E69EE00212E69 /* classwork-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E271A4245E69EE00212E69 /* classwork-3.swift */; };
 		17E271A7245E6B3500212E69 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E271A6245E6B3500212E69 /* models.swift */; };
+		17E271A8245E7FB600212E69 /* GE SS Two Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17E271A3245E64D800212E69 /* GE SS Two Bold.otf */; };
+		17E271A9245E7FB600212E69 /* GE SS Two Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17E271A1245E64D800212E69 /* GE SS Two Light.otf */; };
+		17E271AA245E7FB600212E69 /* GE SS Two Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17E271A2245E64D800212E69 /* GE SS Two Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,8 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E271AA245E7FB600212E69 /* GE SS Two Medium.otf in Resources */,
 				17E27178245E292700212E69 /* LaunchScreen.storyboard in Resources */,
 				17E27193245E5DA800212E69 /* DroidKufi-Bold.ttf in Resources */,
+				17E271A8245E7FB600212E69 /* GE SS Two Bold.otf in Resources */,
+				17E271A9245E7FB600212E69 /* GE SS Two Light.otf in Resources */,
 				17E27175245E292700212E69 /* Preview Assets.xcassets in Resources */,
 				17E27172245E292700212E69 /* Assets.xcassets in Resources */,
 				17E27194245E5DA800212E69 /* DroidKufi-Regular.ttf in Resources */,
