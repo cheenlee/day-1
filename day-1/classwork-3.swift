@@ -42,6 +42,8 @@ struct classwork_3: View {
         }
         .onLongPressGesture {
             self.thekr = athkar.randomElement()!
+            self.counter = 0
+            
             
             
             
