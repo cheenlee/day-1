@@ -9,8 +9,57 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var thekr = athkar.randomElement()!
+    
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            RBG()
+            VStack {
+                
+            Text (thekr)
+                .font(Font.custom("DroidKufi-Regular", size: 36))
+                .foregroundColor(.white)
+                .font(.largeTitle)
+                .bold()
+                .onTapGesture {
+                    self.thekr = athkar.randomElement()!
+                }
+     
+            
+            
+        }
+        
+        
+    }
+}
+}
+
+
+
+struct RBG: View {
+    var body: some View {
+        ZStack {
+            
+            Image ("BACKGROUND")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                
+                Image ("Header")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit
+                )
+                Spacer ()
+                Image ("Mosque")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit
+                )
+                
+            }
+            .edgesIgnoringSafeArea(.all)
+        }
     }
 }
 
